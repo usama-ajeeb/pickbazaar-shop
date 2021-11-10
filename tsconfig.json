@@ -21,9 +21,9 @@
       "@lib/*": ["src/lib/*"],
       "@store/*": ["src/store/*"],
       "@settings/*": ["src/settings/*"],
-      "@framework/*": ["src/framework/rest/*"]
+      "@framework/*": ["src/framework/graphql/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["__generated__", "node_modules", "./src/framework/graphql"]
+  "exclude": ["node_modules", "./src/framework/rest"]
 }

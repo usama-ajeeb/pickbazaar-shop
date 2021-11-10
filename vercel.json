@@ -1,8 +1,8 @@
 {
   "env": {
-    "FRAMEWORK_PROVIDER": "put_your_provider_name_here",
+    "FRAMEWORK_PROVIDER": "graphql",
     "NEXT_PUBLIC_REST_API_ENDPOINT": "put_your_rest_api_endpoint_here",
-    "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "put_your_graphql_api_endpoint_here",
+    "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://mock.redq.io/graphql",
     "NEXT_PUBLIC_SITE_URL": "put_your_site_url_here",
     "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "put_your_stripe_publishable_key_here",
     "NEXTAUTH_URL": "put_your_site_url_here/",
@@ -12,9 +12,9 @@
   },
   "build": {
     "env": {
-      "FRAMEWORK_PROVIDER": "put_your_provider_name_here",
+      "FRAMEWORK_PROVIDER": "graphql",
       "NEXT_PUBLIC_REST_API_ENDPOINT": "put_your_rest_api_endpoint_here",
-      "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "put_your_graphql_api_endpoint_here",
+      "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://mock.redq.io/graphql",
       "NEXT_PUBLIC_SITE_URL": "put_your_site_url_here",
       "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "put_your_stripe_publishable_key_here",
       "NEXTAUTH_URL": "put_your_site_url_here/",
